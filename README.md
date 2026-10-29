@@ -6,19 +6,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-red?style=flat-square)](https://github.com/P374R/syspulse-cli)
 
+
+
 ---
 
 ##  Quick Install
 
 ###  Linux (Ubuntu, Debian, Mint, Raspberry Pi, Arch, Fedora)
 
-#### Option 1: Via APT (`sudo apt install syspulse-cli`)
-Set up the repository once, then install natively via apt:
+#### Option 1: Official Ubuntu PPA (`sudo apt install syspulse-cli`)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/P374R/syspulse-cli/main/setup-apt.sh | sudo bash
+sudo add-apt-repository ppa:p374r/syspulse-cli
+sudo apt update
 sudo apt install syspulse-cli
 ```
-Now run it anywhere:
+Run it anytime:
 ```bash
 syspulse
 ```
@@ -29,13 +31,21 @@ curl -fsSL https://raw.githubusercontent.com/P374R/syspulse-cli/main/install.sh 
 syspulse
 ```
 
-#### Option 3: Manual Debian Package (.deb)
+#### Option 3: Via APT Helper Script
+```bash
+curl -fsSL https://raw.githubusercontent.com/P374R/syspulse-cli/main/setup-apt.sh | sudo bash
+sudo apt install syspulse-cli
+syspulse
+```
+
+#### Option 4: Manual Debian Package (.deb)
+Download the latest `.deb` from [Releases](https://github.com/P374R/syspulse-cli/releases) and install:
 ```bash
 sudo apt install ./syspulse-cli_1.0.0_all.deb
 syspulse
 ```
 
-#### Option 4: Via pipx (Python Standard)
+#### Option 5: Via pipx (Python Standard)
 ```bash
 pipx install syspulse-cli
 syspulse
@@ -45,23 +55,24 @@ syspulse
 
 ###  Windows (Windows 10 & 11)
 
-#### Option 1: Via Winget (Official Windows Package Manager)
+#### Option 1: 1-Line PowerShell Install (Immediate)
+Open PowerShell and run:
 ```powershell
-winget install P374R.SysPulse
+irm https://raw.githubusercontent.com/P374R/syspulse-cli/main/install.ps1 | iex
 ```
 Then run it anywhere:
 ```powershell
 syspulse
 ```
 
-#### Option 2: 1-Line PowerShell Install
+#### Option 2: Via Winget (Official Windows Package Manager)
 ```powershell
-irm https://raw.githubusercontent.com/P374R/syspulse-cli/main/install.ps1 | iex
+winget install P374R.SysPulse
 syspulse
 ```
 
-#### Option 3: Standalone `.exe`
-Download `syspulse-windows-x64.exe` from [Releases](https://github.com/P374R/syspulse-cli/releases), drop it in your folder, and run!
+#### Option 3: Standalone `.exe` (No Installation Needed)
+Download `syspulse-windows-x64.exe` from [Releases](https://github.com/P374R/syspulse-cli/releases), drop it into any folder, and run!
 
 ---
 
@@ -98,14 +109,14 @@ syspulse --once
 ```
 ```json
 {
-  "user": "Master@CreatorsLapotp",
-  "os": "Windows 11",
-  "cpu_model": "Intel Core i7",
+  "user": "P374R@host",
+  "os": "Linux / Windows",
+  "cpu_model": "Multi-Core Processor",
   "cpu_percent": 4.73,
   "memory_percent": 53.9,
   "cache_standby_gb": 5.46,
-  "prefetch": "SysMain Active",
-  "gpu_name": "NVIDIA GeForce RTX 4050",
+  "prefetch": "Active",
+  "gpu_name": "Dedicated GPU",
   "gpu_load_percent": 0.0,
   "breach": false
 }
