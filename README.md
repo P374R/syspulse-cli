@@ -2,7 +2,7 @@
 
 > Fastfetch-inspired, industrial-grade cross-platform system telemetry and active process dashboard for **Linux** and **Windows**.
 
-[![GitHub Release](https://img.shields.io/github/v/release/P374R/syspulse-cli?style=flat-square&color=38bdf8)](https://github.com/P374R/syspulse-cli/releases/)
+[![GitHub Release](https://img.shields.io/github/v/release/P374R/syspulse-cli?style=flat-square&color=38bdf8)](https://github.com/P374R/syspulse-cli/releases/#release-v1.0.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-green?style=flat-square)](https://github.com/P374R/syspulse-cli)
 
