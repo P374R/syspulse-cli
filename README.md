@@ -6,10 +6,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-red?style=flat-square)](https://github.com/P374R/syspulse-cli)
 
-```text
-IMAGE SCREENSHOT HERE
-```
-
 ---
 
 ##  Quick Install
