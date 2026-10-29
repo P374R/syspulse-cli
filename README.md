@@ -7,31 +7,14 @@
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows-blue?style=flat-square)](https://github.com/P374R/syspulse-cli)
 
 ```text
-╭─ SYSPULSE-CLI SYSTEM IDENTITY ───────────────────────────────────────────────────────────────────────────────╮
-│   ██████████  ██████████     Master@CreatorsLapotp   [SYSTEM NOMINAL]                                        │
-│   ██████████  ██████████     ─────────────────────                                                           │
-│   ██████████  ██████████     OS      │ Windows 11 (AMD64)  [Kernel 10.0.26300]                               │
-│   ██████████  ██████████     Uptime  │ 19:54:57   Power:  97% (AC)                                           │
-│                              Shell   │ PowerShell   Term: ConPTY / TTY                                       │
-│   ██████████  ██████████     CPU     │ Intel Core i7 (10P/16L) @ 2400MHz                                     │
-│   ██████████  ██████████     GPU     │ NVIDIA GeForce RTX 4050 [NVML]                                        │
-│   ██████████  ██████████     Memory  │ 8.35 GiB / 15.63 GiB (53.4%)  Cache: 5.45 GiB                         │
-│   ██████████  ██████████     Colors  │ ████████████████████████                                              │
-╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
-╭─ COMPUTE TELEMETRY ─────────────────────────────────╮  ╭─ MEMORY, CACHE & PREFETCH ──────────────────────────╮
-│ Load ████░░░░░░░░░░  28.4% Pk:  82% Av:  31%        │  │ RAM  ███████░░░░░░░  53.4%  8.4/15.6 GiB            │
-│ Wave ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁                   │  │ Wave ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▄                   │
-│ Ctx/s: 248000  IRQ/s: 80000  Tmp: 52.0°C            │  │ Standby/Cache: 5.45G  Paged/NP: 0.53/0.48G          │
-│ C0▅ 55% C1▃ 22% C2▂ 12% C3▆ 78%                     │  │ Win Prefetch: SysMain Active                        │
-│ C4▂ 10% C5  0% C6▂ 15% C7▄ 45%                     │  │ SWAP ░░░░░░░░░░░░░░   0.0%  0.0/ 0.0 GiB            │
-╰─────────────────────────────────────────────────────╯  ╰─────────────────────────────────────────────────────╯
+IMAGE SCREENSHOT HERE
 ```
 
 ---
 
-## ⚡ Quick Install
+##  Quick Install
 
-### 🐧 Linux (Ubuntu, Debian, Mint, Raspberry Pi, Arch, Fedora)
+###  Linux (Ubuntu, Debian, Mint, Raspberry Pi, Arch, Fedora)
 
 #### Option 1: Via APT (`sudo apt install syspulse-cli`)
 Set up the repository once, then install natively via apt:
@@ -64,7 +47,7 @@ syspulse
 
 ---
 
-### 🪟 Windows (Windows 10 & 11)
+###  Windows (Windows 10 & 11)
 
 #### Option 1: Via Winget (Official Windows Package Manager)
 ```powershell
@@ -86,7 +69,7 @@ Download `syspulse-windows-x64.exe` from [Releases](https://github.com/P374R/sys
 
 ---
 
-## ⌨️ Controls & Live Hotkeys
+##  Controls & Live Hotkeys
 
 Click inside your terminal pane to use real-time controls:
 
@@ -101,7 +84,7 @@ Click inside your terminal pane to use real-time controls:
 
 ---
 
-## ⚙️ CLI Options & Flags
+##  CLI Options & Flags
 
 ```text
 usage: syspulse [-h] [-i INTERVAL] [-t THRESHOLD] [-s {cpu,mem,pid,thr}] [--once]
@@ -134,7 +117,7 @@ syspulse --once
 
 ---
 
-## 🛠️ Local Package Builds
+##  Local Package Builds
 
 ### Build Debian `.deb` Package:
 Can be built on Windows, Linux, or macOS:
@@ -152,5 +135,5 @@ Output: `dist/syspulse-windows-x64.exe`
 
 ---
 
-## 📄 License
+##  License
 MIT License © 2026 [P374R](https://github.com/P374R).
