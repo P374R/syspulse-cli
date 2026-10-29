@@ -71,10 +71,10 @@ Click inside your terminal pane to use real-time controls:
 
 | Key | Action |
 | :---: | :--- |
-| **`C`** or **`1`** | Sort processes by **CPU%** (default) |
-| **`M`** or **`2`** | Sort processes by **RAM / Memory%** |
-| **`P`** or **`3`** | Sort processes by **PID** |
-| **`T`** or **`4`** | Sort processes by **Thread Count** |
+| **`C`** | Sort processes by **CPU%** (default) |
+| **`M`** | Sort processes by **RAM / Memory%** |
+| **`P`** | Sort processes by **PID** |
+| **`T`** | Sort processes by **Thread Count** |
 | **`R`** | Toggle Sort Direction (**Ascending / Descending**) |
 | **`Q`** or **`Ctrl+C`** | Clean Exit (Restores terminal and cursor) |
 
