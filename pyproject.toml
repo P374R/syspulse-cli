@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syspulse-cli"
+version = "1.0.0"
+description = "Industrial-grade, cross-platform system telemetry and process monitor"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "P374R" }
+]
+keywords = ["system-monitor", "telemetry", "cli", "fastfetch", "psutil", "cross-platform"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: System :: Monitoring",
+]
+dependencies = [
+    "psutil>=6.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/P374R/syspulse-cli"
+Repository = "https://github.com/P374R/syspulse-cli.git"
+Issues = "https://github.com/P374R/syspulse-cli/issues"
+
+[project.scripts]
+syspulse = "main:main"
+syspulse-cli = "main:main"
+syspulse_cli = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
