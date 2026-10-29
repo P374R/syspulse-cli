@@ -4,7 +4,6 @@ PackageVersion: 1.0.0
 InstallerType: portable
 Commands:
   - syspulse
-  - syspulse-cli
 Installers:
   - Architecture: x64
     InstallerUrl: https://github.com/P374R/syspulse-cli/releases/download/v1.0.0/syspulse-windows-x64.exe
