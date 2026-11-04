@@ -66,7 +66,7 @@ syspulse
 ```
 
 #### Option 2: Via Winget (Official Windows Package Manager) 
-# STILL NOT FINISHED AND CONNECTED TO WINGET
+##### NOTE: STILL NOT FINISHED AND CONNECTED TO WINGET
 ```powershell
 winget install P374R.SysPulse
 syspulse
